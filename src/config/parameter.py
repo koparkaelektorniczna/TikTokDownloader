@@ -50,6 +50,7 @@ class Parameter:
         "id",
         "desc",
         "create_time",
+        "index",
         "nickname",
         "uid",
         "mark",
