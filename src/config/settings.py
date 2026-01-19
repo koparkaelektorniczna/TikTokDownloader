@@ -63,7 +63,7 @@ class Settings:
         "owner_url_tiktok": None,
         "root": "",
         "folder_name": "Download",
-        "name_format": "create_time type nickname desc",
+        "name_format": "index desc",
         "desc_length": 64,
         "name_length": 128,
         "date_format": "%Y-%m-%d %H:%M:%S",

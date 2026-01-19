@@ -298,7 +298,10 @@ class Downloader:
             skipped_live=set(),
         )
         tasks = []
-        for item in data:
+        total = len(data)
+        index_width = max(1, len(str(total)))
+        for index, item in enumerate(data, start=1):
+            item["index"] = str(index).zfill(index_width)
             item["desc"] = beautify_string(
                 item["desc"],
                 self.desc_length,
